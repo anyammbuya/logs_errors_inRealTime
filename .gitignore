@@ -1,0 +1,6 @@
+# package directories
+lambda-error-emails/*/node_modules
+lambda-error-emails/*/jlambda-error-email/spm_packages
+
+# Serverless directories
+lambda-error-emails/*/.serverless

@@ -36,7 +36,8 @@ const generateEmailContent = (data, message) => {
   let subject = `Details for Alarm - ${message.AlarmName} [URGENT]`;
 
   return {
-    Destination: { ToAddresses: ["anyammbuya@yahoo.com"] },
+    Destination: { ToAddresses: ["yoshijoma@gmail.com"] }, //it will always send to 
+                                     //the email specified in the sourceArn on line 49
     Message: {
       Body: {
         Html: { Charset: "UTF-8", Data: text },
